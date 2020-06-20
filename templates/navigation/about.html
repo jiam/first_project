@@ -1,0 +1,16 @@
+{% extends 'navigation/base.html' %}
+{% load staticfiles %} 
+{% block title_block %}
+关于
+{% endblock %}
+{% block body_block %}
+    <h1>我们在一起了</h1>
+    
+    <div>
+      <a href="/navigation/">首页</a><br />
+      <img src="{% static "images/django.png" %}"
+           alt="Picture of django" /> 
+       <img src="/media/cat.jpg"
+           alt="Picture of cat" />
+    </div>
+{% endblock  %}
